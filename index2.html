@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=" icon" href="assets/Nicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title> Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+</head>
+<body>
+    <section class="container">
+      <div class="head">
+        <img src="assets/Netflix Logo.png" alt="NetflixLogo">
+        <select name="language" id="language">
+          <option value="index.html">English</option>
+          <option value="moviezone.html">हिन्दी</option>
+         <select>
+
+          <script>
+            var urlMenu = document.getElementById('language')
+            urlMenu.onchange = function ()
+          {
+             var useroption = this.options[this.selectedIndex];
+             if (useroption.value != "nothing")
+             {
+                 window.open(useroption.value, "English हिन्दी", "");
+             }
+          }
+          
+          </script>
+
+        <a style="padding-left : 4px" href = "https://www.netflix.com/in/login">साइन इन करें </a>
+      </div>
+    </section> 
+    <section class="banner">
+      <img src="assets/banner.jpg" alt="banner" class="fit">
+      <div class="box">
+        <div class="heading">
+          <h2>अनलिमिटेड फ़िल्में, टीवी शो और बहुत कुछ.</h2>
+          <h5> जहां चाहें देखें. जब चाहें कैंसल करें.</h5>
+          <p> देखने के लिए तैयार हैं? अपनी मेंबरशिप बनाने या रीस्टार्ट करने के लिए अपना ईमेल एड्रेस डालें.</p>
+        </div>
+        <div class="Email">
+          <input type="text" placeholder="ईमेल एड्रेस">
+          <a href="moviezone.html"> शुरू करें > </a>
+        </div>
+      </div>
+    </section> 
+
+    <section class="style-card">
+      <div class="card-1">
+        <div class="desc-1">
+          <h1>अपनी टीवी पर मज़ा लें.</h1>
+          <p> स्मार्ट टीवी, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray प्लेयर के साथ ही दूसरे डिवाइस पर भी देखें.</p>
+        </div>
+        <img src="assets/part1img.png" alt="part1">
+        <video class="video-1" autoplay="" playsinline="" muted="" loop="">
+          <source src="assets/part1videoslide.m4v" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="card-2">
+        <img src="assets/part2img.jpg" alt="part1">
+        <div class="desc-2">
+          <h1> ऑफ़लाइन देखने के लिए अपने शो डाउनलोड करें.</h1>
+          <p> अपने पसंदीदा शो और फ़िल्में सेव करें, ताकि आप कभी भी इन्हें देख सकें.</p>
+        </div>
+      </div>
+
+      <div class="card-3">
+        <div class="desc-3">
+          <h1>हर जगह देखें.</h1>
+          <p> बिना ज़्यादा पेमेंट किए, अपने फ़ोन, टैबलेट, लैपटॉप और टीवी पर अनलिमिटेड फ़िल्में और टीवी शो स्ट्रीम करें. </p>
+        </div>
+        <img src="assets/part3img.png" alt="part1">
+        <video class="video-1" autoplay="" playsinline="" muted="" loop="">
+          <source src="assets/part2videoslide.m4v" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="card-4">
+        <img src="assets/part4img.png" alt="part4">
+        <div class="desc-4">
+          <h1>बच्चों के लिए प्रोफ़ाइल बनाएं.</h1>
+          <p> बच्चों को जाने दें अपने पसंदीदा किरदारों के साथ उस रोमांचक सफ़र पर जो सिर्फ़ उनके लिए ही है - आपकी मेंबरशिप के साथ फ़्री.</p>
+        </div>
+      </div>
+</section>
+
+    
+
+  </body>
+  </html>
+
